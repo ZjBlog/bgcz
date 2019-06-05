@@ -1,0 +1,15 @@
+{
+    "name": "猿码集-程序猿进击之路",
+    "short_name": "猿码集",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#3eaf7c",
+    "icons": [
+      {
+        "src": "/qr.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      }
+    ]
+  }
