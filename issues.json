@@ -22,8 +22,8 @@
 			"labels": ["IDEA中构建Spring-cloud多模块的Maven项目", "Vssue"],
 			"body": "这个 Issue 由 action 自动创建，用来存储该页面的评论:https://bgcz.github.io/home/2018/1031.html"
 		}, {
-			"title": "ureka服务端集群及单机配置",
-			"labels": ["ureka服务端集群及单机配置", "Vssue"],
+			"title": "Eureka服务端集群及单机配置",
+			"labels": ["Eureka服务端集群及单机配置", "Vssue"],
 			"body": "这个 Issue 由 action 自动创建，用来存储该页面的评论:https://bgcz.github.io/home/2018/1101.html"
 		}
 	]
