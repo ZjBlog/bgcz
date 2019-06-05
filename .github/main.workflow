@@ -31,6 +31,6 @@ action "Message" {
   needs = ["Deploy"]
   secrets = ["URL"]
   env = {
-    MESSAGE = "w成"
+    MESSAGE = "bgcz.github.io部署成功"
   }
 }
