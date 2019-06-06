@@ -1,5 +1,5 @@
 module.exports = {
-  theme: 'bgcz',
+  theme: 'zjblog',
   title: '猿码集-程序猿进击之路',
   description: '猿码集,每天进步一点点.',
   head: [
@@ -46,16 +46,12 @@ module.exports = {
   zjoverflow:'https://stackoverflow.com//users/6622851/mr-zhang',
   zjwx: 'https://blog-1255892226.cos.ap-beijing.myqcloud.com/xyqs.jpg',
   zjHome: '',
-  zjavatar: 'https://avatars1.githubusercontent.com/u/15625370?v=4',
-  zjname: '暴躁DPS',
   zjurl:[{url:'https://www.bangechengzi.com/',name:'半个橙子'}],
   baidpush: false,
   cnzzUrl: '',
   // 博客背景图片
   background: '/bd.jpg',
   backgroundUrl: 'https://www.bangechengzi.com/img/',
-  // github card
-  github: 'ZjBlog',
   // 博客的 logo
   logo: '/bgcz.png',
   // 定制文章标题颜色
