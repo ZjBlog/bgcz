@@ -66,11 +66,11 @@ module.exports = {
   comment: {
     owner: 'ZjBlog',
     repo: 'bgcz',
-    clientId: 'e9b96defb46455fed1a9',
+    clientID: 'e9b96defb46455fed1a9',
     clientSecret: '0f84513efabb6bf82b91258f2f5bcce35eac487f',
-    locale:'zh',
-    admins:['bgcz','ZjBlog'],
-    prefix:''
+    admin:['ZjBlog'],
+    perPage: 5,
+    distractionFreeMode: false  // Facebook-like distraction free mode
   },
   nav: [
     { text: '首 页', link: '/', root: true }, // 指定它为博客根目录
