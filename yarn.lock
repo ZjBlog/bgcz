@@ -7393,10 +7393,10 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-theme-bgcz@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-bgcz/-/vuepress-theme-bgcz-1.0.2.tgz#010503f72744f3b1bf6360271c8aa8174f1b2172"
-  integrity sha512-+I9tGlPxfBMm4Up6Xq+8z4qi4qYE/cpLNlaZYPkKucasqvhOtfSrrpFPx0ENoW8Q7dscRnZje13jHFkRiStckA==
+vuepress-theme-bgcz@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-bgcz/-/vuepress-theme-bgcz-1.0.3.tgz#179e9e481d513aabea6261a537a2d0a99d3be2bf"
+  integrity sha512-3Lxx2t5SdD3pHRK31j98qeodNL+ULlJ6GP/2cAvsSc7WaJyOy0rqU0aHIYHp2XTMYNsl9xmLDBFsejp06s6kTg==
   dependencies:
     "@vssue/api-github-v3" "^0.9.0"
     clipboard "2.0.4"
