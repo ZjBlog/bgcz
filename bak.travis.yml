@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "node"
+
+cache:
+  directories:
+    - "node_modules"
+cache: yarn
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: ${GH_TOKEN}
+  keep-history: true
+  on:
+    branch: zjblog
+  local-dir: ./docs/.vuepress/dist
+  target-branch: master
+  committer-from-gh: true
+notifications:
+  email:
+    recipients:
+      - 793953767@qq.com
+    on_success: change
+    on_failure: always # default: always
