@@ -50,7 +50,7 @@ module.exports = {
   baidpush: false,
   cnzzUrl: '',
   // 博客背景图片
-  background: '/bd.jpg',
+  background: '',
   backgroundUrl: 'https://www.bangechengzi.com/img/',
   // 博客的 logo
   logo: '/bgcz.png',
