@@ -7359,10 +7359,10 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-theme-zjblog@1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-zjblog/-/vuepress-theme-zjblog-1.4.7.tgz#772a751c4bbe6d6fea33090efac06dee5d9fc0a2"
-  integrity sha512-bDn536Gp0W6lLfUBWU0vfQZWZITyqCpq3dj9N4xthM+6rgoR0i0j1za/izRps//+PGsWRfbaJqWZUHwXzOXt0w==
+vuepress-theme-zjblog@^1.4.7:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-zjblog/-/vuepress-theme-zjblog-1.4.8.tgz#add125d216d8480fd18090e88a8ad17d90ce985e"
+  integrity sha512-Any0N0GbKS+ZrhDj1yUasEkPz/UEErc5EDD6JjxJrKL5nFMMdWXQeEx4tXh4/TJoRm4yXGyFB+7VJuwBUMhVpA==
   dependencies:
     autosize "4.0.2"
     axios "^0.19.0"
