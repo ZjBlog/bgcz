@@ -85,9 +85,9 @@ export default {
   methods: {
     cj (url) {
       if (url === '1') {
-        window.open('https://github.com/ZjBlog/ZjBlog.github.io/')
+        window.open('https://github.com/ZjBlog/bgcz')
       } else {
-        this.$router.push('/home/2019/1011.html') 
+        this.$router.push('/home/2018/1011.html') 
       }
     }
   }
