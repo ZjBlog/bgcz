@@ -8,11 +8,6 @@ module.exports = {
   ],
   ga: 'UA-126556382-1',
   serviceWorker: true,
-  locales:{
-    '/': {
-      lang: 'zh-CN'
-    }
-  },
   // fuck IE
   evergreen: true,
   markdown: {
@@ -27,14 +22,6 @@ module.exports = {
   },
 // 主题的一些配置
   themeConfig: {
-  locales:{
-    '/': {
-      lang: 'zh-CN', // this will be set as the lang attribute on <html>
-      selectText: '默认语言',
-      // 该语言在下拉菜单中的标签
-      label: '简体中文'
-    }
-  },
   serviceWorker: {
     updatePopup: { 
        message: "文章有更新", 
