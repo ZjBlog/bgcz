@@ -38,7 +38,7 @@ module.exports = {
   cnzzUrl: '',
   // 博客背景图片
   background: '',
-  backgroundUrl: 'https://www.bangechengzi.com/img/',
+  backgroundUrl: '',
   // 博客的 logo
   logo: '/bgcz.png',
   // 定制文章标题颜色
