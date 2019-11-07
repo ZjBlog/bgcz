@@ -17,4 +17,10 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - uses: ./actions/node8
+    - name: send-message
+      uses: ZjBlog/message@v1.0
+      with:
+        URL:  ${{ secrets.URL}}
+      env: 
+        MESSAGE: "bgcz.github.io部署成功"
       
