@@ -17,5 +17,4 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - uses: ./actions/node8
-    - name: test
       
