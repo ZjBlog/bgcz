@@ -9,16 +9,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-    - uses: ./actions/node8
+    - name: checkout
+      uses: actions/checkout@master
+      
+    - name: test
+      uses: ./actions/node8
+      
+    - name: createIssueByLables
+      uses: ZjBlog/create-issue-by-lables@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with: 
+        filepath: issues.json
+    
+    - name: deplay
+      uses: ./action/deploy
+      env:
+        REPO:  "bgcz/bgcz.github.io"
+        TOKENACTION:  ${{ secrets.TOKENACTION }}
+     
     - name: send-message
-      uses: ZjBlog/message@v1.0
+      uses: ZjBlog/message@v1.5
       with:
         URL:  ${{ secrets.URL}}
       env: 
