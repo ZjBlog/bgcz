@@ -30,8 +30,6 @@ jobs:
      
     - name: send-message
       uses: ZjBlog/message@v1.5
-      with:
-        URL:  ${{ secrets.URL}}
       env: 
         MESSAGE: "bgcz.github.io部署成功"
-      
+        URL: ${{ secrets.URL }}  
