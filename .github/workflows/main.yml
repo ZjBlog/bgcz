@@ -23,7 +23,7 @@ jobs:
         filepath: issues.json
     
     - name: deplay
-      uses: ./action/deploy
+      uses: ./actions/deploy
       env:
         REPO:  "bgcz/bgcz.github.io"
         TOKENACTION:  ${{ secrets.TOKENACTION }}
