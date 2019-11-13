@@ -28,7 +28,7 @@ jobs:
         REPO:  "bgcz/bgcz.github.io"
         TOKENACTION:  ${{ secrets.TOKENACTION }}
      
-    - name: send-message
+    - name: scp
       uses: ./actions/scp
       env: 
         DEPLOY_KEY: ${{ secrets.key }}
