@@ -4,7 +4,7 @@ yarn && npm run docs:build &&
 echo '👍 编译完成' &&
 cd docs/.vuepress/dist
 remote_repo="https://${TOKENACTION}@github.com/${REPO}.git" && \
-remote_branch="dev" && \
+remote_branch="master" && \
 echo '路径'+ $remote_repo && \
 git init && \
 git config --global user.email "zhangjun521ly@qq.com" && \
