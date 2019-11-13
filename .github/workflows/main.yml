@@ -29,6 +29,11 @@ jobs:
         TOKENACTION:  ${{ secrets.TOKENACTION }}
      
     - name: send-message
+    uses: ./actions/scp
+    env: 
+      DEPLOY_KEY: ${{ secrets.key }}
+
+    - name: send-message
       uses: ZjBlog/message@v1.5
       env: 
         MESSAGE: "bgcz.github.io部署成功"
